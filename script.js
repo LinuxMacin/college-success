@@ -15,3 +15,19 @@ window.addEventListener("scroll", ()=>{
         console.log("up");
     }
 })
+
+myID = document.getElementById("myPic");
+fill = document.getElementById("fil");
+
+var myScrollFunc = function () {
+    var y = window.scrollY;
+    if (y >= 400) {
+        myID.className = "top-Image show"
+        fill.className = "fill show"
+    } else if(y <= 100){
+        fill.className = "fill hide"
+        myID.className = "top-Image hide"
+    }
+};
+
+window.addEventListener("scroll", myScrollFunc);
