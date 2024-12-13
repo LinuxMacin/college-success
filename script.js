@@ -28,12 +28,20 @@ var myScrollFunc = function () {
     } else if(y <= 250){
         fill.className = "fill hide"
         myID.className = "top-Image hide"
+        card.className = "revolve hide"
+
     }
     if(y>=700){
         fill.className = "fill hide"
         myID.className = "top-Image hide"
-        card.className = "revolve show"
     }
+    if(y>=710){
+        card.className = "revolve show"
+    }else if(y>=715 || y<710){
+        
+        card.className = "revolve hide"
+    }
+    
 };
 
 window.addEventListener("scroll", myScrollFunc);
