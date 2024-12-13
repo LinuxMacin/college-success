@@ -192,6 +192,7 @@ img{
     margin-top: 9%;
     width: 150px;
     height: 150px;
+    padding-right: 0%;
 }
 #ccontent1{
     background-color: rgba(255, 255, 255, 0);
@@ -199,6 +200,7 @@ img{
     margin-top: -11.75%;
     width: 150px;
     height: 150px;
+    padding-right: 0%;
     /*grat*/
 }
 #ccontent2{
@@ -207,6 +209,7 @@ img{
     width: 150px;
     height: 150px;
     margin-top:-11.51%;
+    padding-right: 0%;
     /*fair*/
 }
 #ccontent3{
@@ -215,6 +218,7 @@ img{
     margin-top: -11.81%;
     width: 150px;
     height: 150px;
+    padding-right: 0%;
     /*Judgement*/
 }
 #ccontent4{
@@ -223,6 +227,7 @@ img{
     margin-top: -11.625%;
     width: 150px;
     height: 150px;
+    padding-right: 0%;
     /*creative*/
 }
 .Strength{
