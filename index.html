@@ -10,6 +10,7 @@
     </head>
   <body>
     <main>
+        
         <!--<script type="text/javascript">
             alert("All images are from pixabay.com");
             
@@ -20,6 +21,7 @@
             alert("Fairness: https://pixabay.com/photos/equity-fairness-equitable-letters-2355700/");
             </script>-->
         <h1 id="lcome">Welcome to my portfolio</h1>  
+        
     
         <div id="container" class="top-Image hide">
 
@@ -36,7 +38,6 @@
         <video id="bgVideo" loop muted autoplay="autoplay">
             <source src="lv_0_20241211011451.mp4" type="video/mp4">    
         </video>
-        <div id="blur"></div>
         <div class="via hide" id="vs">
             <h2>Via Character Strength</h2>
         </div>
@@ -101,16 +102,27 @@
             <div class="jbs" id="me">
                 <h2 id="med">Mechanical Engineering</h2>
                 <img src="me.jpg" alt="mechanical Engineer" id="meng">
-                    <div class="meinfo">
-                        
-                    </div>
+                
+                <div class="meinfo">
+                    <h2 class="info"> INFO: </h2>
+                    <p class="meinfodata" id="mInterest">Interest: I like working with my hands and build things like robots. I like to just make things.</p>
+                </div>
 
             </div>
             <div class="jbs" id="cs">
                <h2 id="css"> Computer Engineering</h2>
                <img src="cs.jpg" alt="computer Engineer" id="ceng">
-                <div class="csinfo">
-                    
+                <div class="vidref">
+                <video src="Untitled video - Made with Clipchamp.mp4" loop muted autoplay="autoplay" class="vid"></video>
+               </div>
+               <div class="csinfo">
+                    <h2 class="info"> INFO: </h2>
+                    <p class="csinfodata" id="cInterest">Interest: This job interests me because I like to work with electrical hardware components and writing code, like this website</p>
+                    <p class="csinfodata" id="cEducation"></p>    
+                    <p class="csinfodata" id="cSalary">Salary in the US:</p>
+                    <p class="csinfodata" id="cSalaryEntry">Entry: $130,350 </p>
+                    <p class="csinfodata" id="cSalaryMedian">Median: $162390</p>
+                    <p class="csinfodata" id="cSalaryExperienced">Experienced: $196260</p>
                 </div>
             </div>
             
@@ -163,6 +175,7 @@
             
         </div>
         
+    <div id="blur"></div>
     </main>
     <script src="script.js"></script>
   </body>
