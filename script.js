@@ -19,10 +19,11 @@ window.addEventListener("scroll", ()=>{
 myID = document.getElementById("container");
 fill = document.getElementById("fil");
 card = document.getElementById("ca");
+s2 = document.getElementById("section2")
 
 var myScrollFunc = function () {
     var y = window.scrollY;
-    if (y >= 250) {
+    if (y >= 250 && y<700) {
         myID.className = "top-Image show"
         //fill.className = "fill show"
     } else if(y <= 250){
@@ -30,16 +31,21 @@ var myScrollFunc = function () {
         myID.className = "top-Image hide"
         card.className = "image-cont hide"
 
-    }
-    if(y>=700){
+    }else if(y>=700){
         //fill.className = "fill hide"
         myID.className = "top-Image hide"
     }
-    if(y>=710){
+    if(y>=710 && y<1100){
         card.className = "image-cont show"
-    }else if(y>=715 || y<710){
+    }else if(y<720){
         
         card.className = "image-cont hide"
+    }
+    if(y>1150){
+        s2.className = "se2 show"
+    }else{
+        
+        s2.className = "se2 hide"
     }
     
 };

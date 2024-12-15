@@ -93,6 +93,17 @@ img{
  align-items: center;  
  display: inline;
 }
+.Section-2{
+    position: relative;
+    margin-left: 0%;
+    left: 0px;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    align-items: center;  
+    display: inline-block;
+    margin-left: 4%;
+}
 .hide {
    /* opacity:0;
     /*animation: fadeIn 2s backwards;*/
@@ -116,8 +127,11 @@ img{
     display: inline-block;
     font-family: 'Times New Roman', Times, serif;
 }
-#section2{
-    display: flex;
+.vals{
+    color: white;
+    font-size: 500%;
+    
+    font-family: 'Times New Roman', Times, serif;
 }
 @keyframes fadeIn {
     0% {
@@ -159,6 +173,20 @@ img{
 .card-image .card-img2{height: 150px; width: 150px; padding-left: 70%;}
 .card-image .card-img3{height: 150px; width: 150px; padding-left: 70%;}
 .card-image .card-img4{height: 150px; width: 150px; padding-left: 70%;}
+.Section-2{
+    margin-top: 10%;
+}
+#fam{
+    margin-left: 80%;
+}#mas{
+    margin-left: 79%;
+}
+#value{
+color: white;
+font-family: 'Times New Roman', Times, serif;
+font-size: 250%;
+
+}
 /*.card-image .card-img{
     height: 100%;
     width: 100%;
