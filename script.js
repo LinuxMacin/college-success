@@ -20,6 +20,7 @@ myID = document.getElementById("container");
 fill = document.getElementById("fil");
 card = document.getElementById("ca");
 cd = document.getElementById("s23");
+vs = document.getElementById("vs");
 s2 = document.getElementById("section2")
 
 var myScrollFunc = function () {
@@ -38,9 +39,11 @@ var myScrollFunc = function () {
     }
     if(y>=710 && y<1100){
         card.className = "image-cont show"
+        vs.className = "via show"
     }else if(y<720){
         
         card.className = "image-cont hide"
+        vs.className = "via hide"
     }
     if(y>1150 && y<2000){
         s2.className = "se2 show"

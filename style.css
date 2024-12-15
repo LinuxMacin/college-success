@@ -96,7 +96,6 @@ img{
 .Section-2{
     position: relative;
     margin-left: 0%;
-    left: 0px;
     top: 0;
     width: 100%;
     height: 100%; 
@@ -159,7 +158,7 @@ img{
   width: 15%;
   padding: 10px;
   align-items: center;
-  padding-top: 10%;
+  padding-top: 0%;
   
 }
 .img-cont::after{
@@ -207,4 +206,59 @@ font-size: 500%;
 .Strength{
     color: white;
     padding-left: 70%;
+}
+#car{
+    font-size: 300%;
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 5%;
+}
+.job{
+    align-items: center;
+    padding-left: 40%;
+}
+.via{
+    align-items: center;
+    color: white;
+    margin-left: 35%;
+    margin-bottom: 0px;
+    margin-top: 50%;
+    font-size: 200%;
+    position: relative;
+}
+.jbs{
+  float: left;
+  width: 49%;
+  height: 500px;
+
+  
+}
+.jobs{
+    text-align: center;
+}
+#me{
+    border-color: white;
+    border-width: 2px;
+    border-right-style: solid;
+}
+
+#med{
+    
+  font-size: 200%;
+  color: silver;
+}
+#css{
+    
+  font-size: 200%;
+  color: green;
+}
+#meng{
+    width: 30%;
+    height: 30%;
+    margin-left: 50%;
+}
+#ceng{
+    width: 30%;
+    height: 30%;
+    margin-right: 50%;
 }
