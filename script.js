@@ -19,6 +19,7 @@ window.addEventListener("scroll", ()=>{
 myID = document.getElementById("container");
 fill = document.getElementById("fil");
 card = document.getElementById("ca");
+cd = document.getElementById("s23");
 s2 = document.getElementById("section2")
 
 var myScrollFunc = function () {
@@ -43,8 +44,9 @@ var myScrollFunc = function () {
     }
     if(y>1150){
         s2.className = "se2 show"
+        cd.className = "Section3 show"
     }else{
-        
+        cd.className = "Section3 hide"
         s2.className = "se2 hide"
     }
     

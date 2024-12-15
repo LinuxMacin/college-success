@@ -187,6 +187,22 @@ font-family: 'Times New Roman', Times, serif;
 font-size: 250%;
 
 }
+#va2{
+color: orange;
+font-size: 500%;
+}
+.Section3{
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -58%;
+    margin-left: 38%;
+}
+.s3{
+    color: orange;
+    font-size: 300%;
+    padding-top: 10px;
+}
 /*.card-image .card-img{
     height: 100%;
     width: 100%;
