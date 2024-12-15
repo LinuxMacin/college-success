@@ -24,22 +24,22 @@ var myScrollFunc = function () {
     var y = window.scrollY;
     if (y >= 250) {
         myID.className = "top-Image show"
-        fill.className = "fill show"
+        //fill.className = "fill show"
     } else if(y <= 250){
-        fill.className = "fill hide"
+        //fill.className = "fill hide"
         myID.className = "top-Image hide"
-        card.className = "revolve hide"
+        card.className = "image-cont hide"
 
     }
     if(y>=700){
-        fill.className = "fill hide"
+        //fill.className = "fill hide"
         myID.className = "top-Image hide"
     }
     if(y>=710){
-        card.className = "revolve show"
+        card.className = "image-cont show"
     }else if(y>=715 || y<710){
         
-        card.className = "revolve hide"
+        card.className = "image-cont hide"
     }
     
 };
