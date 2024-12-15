@@ -42,7 +42,7 @@ var myScrollFunc = function () {
         
         card.className = "image-cont hide"
     }
-    if(y>1150){
+    if(y>1150 && y<2000){
         s2.className = "se2 show"
         cd.className = "Section3 show"
     }else{
