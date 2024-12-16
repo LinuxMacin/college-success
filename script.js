@@ -11,13 +11,7 @@ video.playbackRate = 0.5;
 var lock = false;
 var check = false;
 var check2 = false;
-window.addEventListener("scroll", ()=>{
-    if(scrollY < window.scrollY){
-        console.log("down");
-    }else{
-        console.log("up");
-    }
-})
+
 
 myID = document.getElementById("container");
 fill = document.getElementById("fil");
