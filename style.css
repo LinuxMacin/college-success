@@ -494,4 +494,20 @@ font-size: 500%;
       margin-left: 48.75%;
   
   }
+.pic{
+    height: 30%;
+    width: 30%;
+    padding-left: 8%;
+    padding-right: 0%;
+    margin-right: 0%;
+    margin-top: 30%
+}
 
+
+.pov{
+    padding-left: 43%;
+    margin-top: 70%;
+    position: absolute;
+    font-size: 200%;
+    color: white;
+}

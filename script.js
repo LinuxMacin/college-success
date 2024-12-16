@@ -8,6 +8,9 @@ video.playbackRate = 2;
 // Set playback rate to 0.5 (half the normal speed)
 video.playbackRate = 0.5;
 
+var lock = false;
+var check = false;
+var check2 = false;
 window.addEventListener("scroll", ()=>{
     if(scrollY < window.scrollY){
         console.log("down");
@@ -23,9 +26,10 @@ cd = document.getElementById("s23");
 vs = document.getElementById("vs");
 jb = document.getElementById("jbs");
 s2 = document.getElementById("section2");
-car = document.getElementById("jb")
-ta = document.getElementById("jb2")
-ta2 = document.getElementById("tsk")
+car = document.getElementById("jb");
+ta = document.getElementById("jb2");
+ta2 = document.getElementById("tsk");
+var elem = document.getElementById("col"); 
 
 var myScrollFunc = function () {
     var y = window.scrollY;
@@ -56,7 +60,7 @@ var myScrollFunc = function () {
         cd.className = "Section3 hide"
         s2.className = "se2 hide"
     }
-   /* if(y>2050&&y<3000){
+    if(y>2050&&y<3000){
         jb.className = "jobs show"
         car.className = "job show"
     }else{
@@ -64,13 +68,20 @@ var myScrollFunc = function () {
         jb.className = "jobs hide"
         car.className = "job hide"
     }
-    if(y>3100&&y<3800){
+    if(y>3100&&y<4000){
         ta.className = "ta show"
         ta2.className = "task show"
     }else{
         ta.className = "ta hide"
         ta2.className = "task hide"
-    }*/
+    }
+    if(y>4400){
+        lock = true;
+
+    }else{
+        lock = false;
+    }
+  
     
 };
 
