@@ -214,6 +214,7 @@ font-size: 500%;
     text-decoration: underline;
     text-decoration-thickness: 5%;
 }
+
 .job{
     align-items: center;
     padding-left: 40%;
@@ -237,6 +238,7 @@ font-size: 500%;
 .jobs{
     text-align: center;
 }
+
 #me{
     border-color: white;
     border-width: 2px;
@@ -381,6 +383,13 @@ font-size: 500%;
     margin-left: 48.75%;
 
 }
+.bord2{
+    position: absolute;
+    height: 800px;
+    border-right:2px solid white;
+    margin-left: 48.75%;
+
+}
 #cJG{
     margin-top: 510%;
 
@@ -389,3 +398,100 @@ font-size: 500%;
     margin-top: 590%;
 
 }
+
+
+
+/* ----------------------------------------------------------*/
+
+
+.ta{
+    align-items: center;
+    padding-left: 40%;
+    margin-top: 70%;
+    position: absolute;
+    
+}
+#car2{
+    font-size: 300%;
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 5%;
+}
+.tsk{
+    float: left;
+    width: 49%;
+    height: 500px;
+  
+    
+  }
+  .task{
+      text-align: center;
+      margin-top: 85%;
+  }
+  #met{
+      border-color: white;
+      border-width: 2px;
+      border-right-style: solid;
+  }
+  
+  #medlbl{
+    font-size: 200%;
+    color: silver;
+  }
+  #csslbl{
+      
+    font-size: 200%;
+    color: green;
+  }
+  .metask{
+      margin-left: 2%;
+      left: 0%;
+      margin-top: 0%;
+      position: absolute;
+  }
+  
+  .cstask{
+      margin-top: 0%;
+      right: 0%;
+      margin-right: 2%;
+      position: absolute
+  }
+  .tk{
+      font-size: 200%;
+      color: white ;
+      text-align: left;
+  }
+  .cstaskdata{
+      position: absolute;
+      margin-left: -350%;
+      font-size: 200%;
+      color: orange;
+  }
+  .metaskdata{
+      position: absolute;
+      margin-right: -350%;
+      font-size: 200%;
+      color: gold;
+  }
+  #con2{
+      margin-top: 220%;
+  }
+  #co{
+      margin-top: 400%;
+   
+  }
+  #ins{
+      margin-top: 220%;
+  }
+  #inp{
+      margin-top: 400%;
+  }
+
+  .bord2{
+      position: absolute;
+      height: 800px;
+      border-right:2px solid white;
+      margin-left: 48.75%;
+  
+  }
+
