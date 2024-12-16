@@ -265,7 +265,7 @@ font-size: 500%;
 .meinfo{
     margin-left: 2%;
     left: 0%;
-    margin-top: -12%;
+    margin-top: -22%;
     position: absolute
 }
 .csinfo{
@@ -297,12 +297,27 @@ font-size: 500%;
     margin: 0%;
     padding: 0%;
 }
+.vid2{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
 .vidref{
     border: 5px solid white;
     width: 25%;
     height: 21.25%;   
     position: relative;
     margin-left: 10%;
+    margin-top: 5%;
+
+}
+.vidref2{
+    border: 5px solid white;
+    width: 25%;
+    height: 21.25%;   
+    position: relative;
+    margin-left: 63.75%;
     margin-top: 5%;
 
 }
@@ -318,6 +333,20 @@ font-size: 500%;
     padding-left: 40%;
 }
 #cSalaryExperienced{
+    margin-top: 370%;
+    padding-left: 40%;
+}#mSalary{
+    margin-top: 250%;
+}
+#mSalaryEntry{
+    margin-top: 290%;
+    padding-left: 40%;
+}
+#mSalaryMedian{
+    margin-top: 330%;
+    padding-left: 40%;
+}
+#mSalaryExperienced{
     margin-top: 370%;
     padding-left: 40%;
 }
