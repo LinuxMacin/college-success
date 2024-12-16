@@ -21,7 +21,9 @@ fill = document.getElementById("fil");
 card = document.getElementById("ca");
 cd = document.getElementById("s23");
 vs = document.getElementById("vs");
-s2 = document.getElementById("section2")
+jb = document.getElementById("jbs");
+s2 = document.getElementById("section2");
+car = document.getElementById("jb")
 
 var myScrollFunc = function () {
     var y = window.scrollY;
@@ -51,6 +53,14 @@ var myScrollFunc = function () {
     }else{
         cd.className = "Section3 hide"
         s2.className = "se2 hide"
+    }
+    if(y>2050&&y<3000){
+        jb.className = "jobs show"
+        car.className = "job show"
+    }else{
+        
+        jb.className = "jobs hide"
+        car.className = "job hide"
     }
     
 };

@@ -86,12 +86,13 @@ img{
     align-items: center;
 }
 .fill{
- padding-top: 125%;
- padding-left: 40%;
+ padding-top: 100%;
+ padding-left: 4%;
  width: 300%;
  height: 100%; 
  align-items: center;  
- display: inline;
+ position: relative;
+ display: block;
 }
 .Section-2{
     position: relative;
@@ -268,6 +269,7 @@ font-size: 500%;
     margin-top: -22%;
     position: absolute
 }
+
 .csinfo{
     margin-top: -22%;
     right: 0%;
@@ -349,4 +351,41 @@ font-size: 500%;
 #mSalaryExperienced{
     margin-top: 370%;
     padding-left: 40%;
+}
+#cEducation{
+    margin-top: 420%;
+}
+#mEducation{
+    margin-top: 420%;
+}
+#mEducationB{
+    margin-top: 460%;
+    margin-left: 40%;
+}
+#cEducationB{
+    margin-top: 460%;
+    padding-left: 40%;
+}
+#mEducationP{
+    margin-top: 500%;
+    margin-left: 40%;
+}
+#mEducationM{
+    margin-top: 540%;
+    margin-left: 40%;
+}
+.bord{
+    position: absolute;
+    height: 800px;
+    border-right:2px solid white;
+    margin-left: 48.75%;
+
+}
+#cJG{
+    margin-top: 510%;
+
+}
+#mJG{
+    margin-top: 590%;
+
 }
