@@ -29,6 +29,8 @@ s2 = document.getElementById("section2");
 car = document.getElementById("jb");
 ta = document.getElementById("jb2");
 ta2 = document.getElementById("tsk");
+ref = document.getElementById("ref2");
+back = document.getElementById("baln");
 var elem = document.getElementById("col"); 
 
 var myScrollFunc = function () {
@@ -75,11 +77,13 @@ var myScrollFunc = function () {
         ta.className = "ta hide"
         ta2.className = "task hide"
     }
-    if(y>4400){
-        lock = true;
-
-    }else{
-        lock = false;
+    if(y>5100){
+        ref.className = "ref show"
+        back.className = "bla show"
+    }
+    else{
+        ref.className = "ref hide"
+        back.className = "bla hide"
     }
   
     

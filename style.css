@@ -82,6 +82,16 @@ img{
     z-index: -1;
     background-image: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,.25));
 }
+#baln{
+    
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    background-color: black;
+}
 #lcome{
     align-items: center;
 }
@@ -513,4 +523,35 @@ font-size: 500%;
 }
 #cm{
     padding-top: 10%;
+}  
+.about{
+    align-items: center;
+    padding-left: 40%;
+    margin-top: 10%;
+    position: absolute; 
+}
+.mee{
+    font-size: 300%;
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 5%;
+}
+.meq{   
+    position: absolute;
+    font-size: 150%;
+    color: gold;
+    margin-top: 15%;
+}
+.ref{
+    margin-top: 10%;
+    margin-bottom: 20px;
+    width: 80%;
+    bottom: 0px;
+    align-items: center;
+    position:relative;
+    margin-left: 10%;
+}
+.ans{
+    color: green;
+    padding-left:4%;
 }
